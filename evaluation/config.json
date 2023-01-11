@@ -1,0 +1,48 @@
+{
+  "address": {
+    "1": "tcp://127.0.0.1:3735"
+  },
+  "http_address": {
+    "1": "http://127.0.0.1:8070"
+  },
+  "algorithm": "ebft",
+  "byzNo": 1,
+  "strategy": "silence",
+  "chan_buffer_size": 10240,
+  "buffer_size": 10240,
+  "multiversion": false,
+  "timeout": 1000,
+  "block_size": 400,
+  "memsize": 1000,
+  "fixed": false,
+  "payload_size": 1024,
+  "delta": 5,
+  "pprof": false,
+  "maxRound": 5000,
+  "master": "0",
+  "delay": 0,
+  "derr": 0,
+  "slow": 300,
+  "crash": 20000,
+  "estimate_num": 3,
+  "estimate_window": 100,
+  "benchmark": {
+    "T": 1200,
+    "N": 0,
+    "K": 1000,
+    "W": 0.5,
+    "Throttle": 1000,
+    "Concurrency": 10,
+    "Distribution": "uniform",
+    "LinearizabilityCheck": false,
+    "Conflicts": 0,
+    "Min": 0,
+    "Mu": 500,
+    "Sigma": 50,
+    "Move": false,
+    "Speed": 10,
+    "Zipfian_s": 2,
+    "Zipfian_v": 1,
+    "Lambda": 0.01
+  }
+}
